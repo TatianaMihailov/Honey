@@ -4,7 +4,7 @@ Proiect creat in cardul programului Tekwill in fiecare scoala. Producator autoht
 promovarea produselor autohtone apicole in spatiul virtual.
 ### pagina principala 
 link spre pagina principala https://github.com/TatianaMihailov/Honey/blob/main/pages%20html/index.html
-imagine a paginii principale
+imagine a paginii principale ![main_page](https://user-images.githubusercontent.com/76222261/103029342-4748d880-4562-11eb-964d-ef4e7290a8b2.png)
 ### pagina cu miere si derivatele stupului
 link
 imagine
