@@ -6,8 +6,8 @@ promovarea produselor autohtone apicole in spatiul virtual.
 link spre pagina principala https://github.com/TatianaMihailov/Honey/blob/main/pages%20html/index.html
 imagine a paginii principale ![main_page](https://user-images.githubusercontent.com/76222261/103029342-4748d880-4562-11eb-964d-ef4e7290a8b2.png)
 ### pagina cu miere si derivatele stupului
-link
-imagine
+link https://tatianamihailov.github.io/Honey/pages%20html/pag1.html 
+imaginea paginii a 2-a: ![page1](https://user-images.githubusercontent.com/76222261/103030106-cc80bd00-4563-11eb-99ff-39788c067b5e.png)
 ### pagina cu tratamente cu miere 
 link 
 imagine
