@@ -11,7 +11,8 @@
     <meta name="keywords" content="miere poliflora, miere de mai, miere de salcam, ceara de albini, lumanari, 
         propolis, rame, stupi, familii de albini in vanzare, raionul Drochia, nordul Moldovei" />
     <meta name="author" content="Hriplivii Alexandru" />
-
+    <link rel="stylesheet" href="../css code/stiluri.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         body {
@@ -27,34 +28,50 @@
 </head>
 
 <body>
-    <img src="../imagini/4bees.jpg" width="300">
+    <div class="container">
+        <div class="continut ">
+            <img src="../imagini/4bees.jpg" width="300">
 
-    <form autocomplete="on">
-        <label for="nume">Numele:</label> <br />
-        <input type="text" name="nume" id="nume" required /> <br />
+            <form autocomplete="on">
+                <label>Logare:</label> <br />
+                <label for="login">Login:</label> <br />
+                <input type="text" name="login" id="login" required /> <br />
 
-        <label for="parola">Parola:</label> <br />
-        <input type="password" name="parola" id="parola" required /> <br />
+                <label for="parola">Parola:</label> <br />
+                <input type="password" name="parola" id="parola" required /> <br />
+                <hr />
 
-        <label for="virsta">Virsta</label> <br />
-        <input type="number" name="virsta" id="virsta" /> <br /> <br />
+                <label for="nume">Numele:</label> <br />
+                <input type="text" name="nume" id="nume" required /> <br />
 
-        <label>Genul:</label> <br />
-        <label for="masculin">Masculin:</label>
-        <input type="radio" name="gen" id="masculin" /> <br />
+                <label for="telefon">Telefonul de contact:</label> <br />
+                <input type="text" name="telefon" id="telefon" required /> <br />
 
-        <label for="feminin">Feminin:</label>
-        <input type="radio" name="gen" id="feminin" /> <br /> <br />
+                <label for="produs">Ce produs va intereseaza:</label> <br />
+                <input type="text" name="produs" id="produs" required /> <br />
 
-        <input type="checkbox" name="acord" id="acord" required />
-        <label for="acord">Sunt de acord cu regulile</label> <br /> <br />
 
-        <p>Foto</p>
+                <label for="virsta">Virsta</label> <br />
+                <input type="number" name="virsta" id="virsta" /> <br /> <br />
+
+                <label>Genul:</label> <br />
+                <label for="masculin">Masculin:</label>
+                <input type="radio" name="gen" id="masculin" /> <br />
+
+                <label for="feminin">Feminin:</label>
+                <input type="radio" name="gen" id="feminin" /> <br /> <br />
+
+                <input type="checkbox" name="acord" id="acord" required />
+                <label for="acord">Sunt de acord cu regulile</label> <br /> <br />
+
+                <!-- <p>Foto</p>
         <input type="file" name="poza" id="poza" />
-        <label for="poza"></label>
+        <label for="poza"></label> -->
 
-        <br /> <br />
-        <input type="submit" value="Transmite">
+                <br /> <br />
+                <input type="submit" value="Transmite">
 
-    </form>
+            </form>
+        </div>
+    </div>
 </body>

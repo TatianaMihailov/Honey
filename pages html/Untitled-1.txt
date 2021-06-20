@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+ <HTML>
+  <head>
+     <meta charset="utf-8">
+  <style> Lectia 17/title
+    img 
+  </style>
+  <\head>
+    <\body>
+ <ing SPC=''
+<\HTML>

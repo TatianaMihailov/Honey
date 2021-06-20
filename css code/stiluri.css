@@ -5,29 +5,41 @@ body{
     font-family: cursive;
 }
 header{
-    background-color:rgba(250, 210, 136, 0.877);
+    background-color:rgba(247, 223, 179, 0.877);
     min-height: 70px;
     border-style: dotted;
     border-color: orange;
     border-width: 3px;
     font-size: 22px;
-}    
+}   
+
 .header-button{
     background-color:rgba(201, 13, 101, 0.575);
     padding: 15px 10px 15px 10px;
     margin: 3px;
 }
+.header-logou{
+    width: 75px;
+    float: left;
+    transition: 2s;
+} 
 header a{
     float: left; /*meniu responsive */
     color: black;
     text-decoration: none;
     padding:15px;
+    border: 2px solid transparent;
 }
 header a.active{
-    background-color: rgba(201, 13, 101, 0.575);
+    background-color: rgba(224, 145, 26, 0.575);
 }
 header a:hover{
-    background-color: rgba(162, 25, 216, 0.336); 
+    background-color: rgba(236, 171, 96, 0.336); 
+    border: 2px solid rgba(247, 88, 154, 0.623);
+}
+.hamburger-menu{
+    display:none;
+    float: right;
 }
 .container{
     /* background-color:rgb(247, 232, 167); */
@@ -47,13 +59,14 @@ header a:hover{
 .centered{
     text-align: center;
     justify-content: centered;
+    /* min-height=50vh; */
     /* display: flex; */
 }
 .scroll{
     overflow-y: scroll;
 }
 p{
-    font-size: 20px;
+    font-size: 1.1em;
 }
 footer{
     min-height: 70px;
@@ -69,4 +82,52 @@ footer{
     justify-content: centered;
     
 /* display: flex; */
+}
+@media(max-width:1063){
+    /* meniul ca sa incapa intr-o linie trebuieste ecranul sa fie de mai mult de 1063px in latime */
+    .nav a{
+        display: none;
+    }
+    a.hamburger-menu{
+        display: block;
+        position:absolute;
+        right:0px;
+        top:0px;
+    }
+    .nav.mobile a{
+        float: none;
+        display:block;
+        text-align:left;
+    }
+    .container{
+        padding:7px 10% 20px 10%;
+    }
+    .continut{
+        padding: 15px 10% 20px 10%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:770px){
+    .nav a{
+        display: none;
+    }
+    a.hamburger-menu{
+        display: block;
+        position:absolute;
+        right:0px;
+        top:0px;
+    }
+    .nav.mobile a{
+        float: none;
+        display:block;
+        text-align:left;
+    }
+    .container{
+        padding: 7px 3% 20px 3%; 
+    }
+    .continut{
+        padding: 15px 3% 20px 3%;
+        font-size: 12px;
+    }
 }
