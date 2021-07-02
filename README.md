@@ -21,10 +21,11 @@ imagine
 in privinta la crearea sitului - Tatiana: 068066568, tanea.hriplivii@gmail.com
 in privinta la miere si alte produse de albini: Alexandru: 068151032
 ## Imbunatatiri
-de adaugat receta de gogoshari cu miere pe pagina cu recete, si bostanel cu miere si lamaie (inele ca de ananas);
-de afisat meniul hamburger pentru dispozitive mici/telefon de la 1063 pixeli si mai putin;
+de adaugat receta de bostanel cu miere si lamaie (inele ca de ananas) pe pagina cu recete;
+de verificat afișarea saitului pe  dispozitive cu ecrane mari;
 de cerut permisiunea autorilor de videouri de pe youtube sa folosesc videoul lor pe site-ul meu;
 de aplicat un element video, nu doar ca iframe; 
-de lucrat la pozitionarea si dimensiunea imaginilor despre polen si videoului - sa fie responsive;
 de intrebat din prima sursa daca-i bine, daca mai trebuie ceva de adaugat, ca sa fie complet.
 de adaugat harta unde-i pozitionata casei din Drochia sau Pervomaiscoe/adresa.
+de pus target=blank la toate linkurile externe
+de inclus in lista de keywords mai multe opțiuni, de exemplu: recete cu miere etc.
