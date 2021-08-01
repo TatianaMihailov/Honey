@@ -44,16 +44,17 @@
         <div class="continut">
             <hr />
 
-            <audio controls max-width="80%">
+            <audio style="max-width: 95%;" controls>
                 <source src="../audio/honey bee buzzing.mp3" type="audio/mp3" loop />
                 <p>Browserul dv-stra nu sustine formatul mp3</p>
             </audio><!--  -->
             <hr />
-            <h1>Cum produc albinele mierea naturala (in limba rusa)</h1>
+            <h1>Cum produc albinele mierea naturala</h1>
             <div class="scroll">
-                <iframe max-width="80%" src="https://www.youtube.com/embed/276v0qyak8E?start=14" frameborder="0"
+                <!-- <iframe max-width="80%" src="https://www.youtube.com/embed/276v0qyak8E?start=14" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+                </iframe> -->
+                <video controls height="600" src="../video/cum_se_face_mierea1.mp4"></video>
             </div>
             <br /> <br />
             <div class="scroll">
@@ -115,36 +116,66 @@
             <span id="an">
                 <script src="../JS/JS.js"></script>
             </span>
-
-            <h3>Derivatele:</h3>
-            <ul>
-                <li>polen</li>
-                <li>pastura (рус: перга)</li>
-                <li>apilarnil (рус: трутневый гомогенат)</li>
-                <li>laptisor de regina (рус: маточное молочко)</li>
-                <li>propolis</li>
-                <li>rame</li>
-            </ul>
-            <img class="img" src="../imagini/polen.jpg" width=500px alt="aici este imagine la pachetele de polen">
-            <h3>Luminari din ceara</h3>
-            <img class="img" src="../imagini/luminari.jpg" width=500px
-                alt="aici este imagine la luminari din ceara pura in diferite forme">
-            <img class="img" src="../imagini/luminari_color_b.jpg" width=500px
-                alt="aici este imagine la luminari cu diferite forme din diferite culori">
-            <hr />
-
-            <div class="centered">
+            <div class="row">
                 <h2>Daca solicitati produse de stup care sunt rare, va rugam sa ne contactati, completand formularul de
-                    mai
-                    jos.
-                    Acestea includ: polen, pastura (рус: перга), apilarnil (рус: трутневый гомогенат), laptisor de
+                    mai jos. Acestea includ: polen, pastura (рус: перга), apilarnil (рус: трутневый гомогенат), laptisor
+                    de
                     regina
-                    (рус:
-                    маточное молочко), propolis, rame goale, stupi goi, familii de albine.</h2>
-                <a href="form.html"><b><mark>Contactati-ne</mark></b></a>
-                <hr />
+                    (рус: маточное молочко), propolis, rame goale, stupi goi, familii de albine.</h2>
+                <!-- <a href="form.html"><b><mark>Contactati-ne</mark></b></a> -->
+                <div class="col-3">
+                    <h3>Derivatele:</h3>
+                    <ul>
+                        <li>polen</li>
+                        <li>pastura (рус: перга)</li>
+                        <li>apilarnil (рус: трутневый гомогенат)</li>
+                        <li>laptisor de regina (рус: маточное молочко)</li>
+                        <li>propolis</li>
+                        <li>rame</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <img class="img" src="../imagini/polen.jpg" width=500px
+                        alt="aici este imagine la pachetele de polen">
+                </div>
+                <div class="col-3">
+                    <img class="img" src="../imagini/luminari_color_b.jpg" width=500px
+                        alt="aici este imagine la luminari cu diferite forme din diferite culori">
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <h3>Luminari din ceara</h3>
+                    <img class="img" src="../imagini/luminari.jpg" width=500px
+                        alt="aici este imagine la luminari din ceara pura in diferite forme">
+                </div>
+
+                <div class="col-5">
+                    <div class=form>
+                        <form>
+                            <h3>Contacteaza-ne:</h3>
+                            <label for="nume">Numele:</label> <br />
+                            <input type="text" name="nume" id="nume" required /> <br />
+
+                            <label for="email">E-mail:</label> <br />
+                            <input type="text" name="email" id="email" required /> <br />
+
+                            <label for="tel">telefon</label> <br />
+                            <input type="number" name="Telefon:" id="tel" /> <br /> <br />
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
+        <div class="centered">
+
+            <hr />
+        </div>
+    </div>
     </div>
 
 
@@ -155,7 +186,7 @@
             <br />
             <br />
             <strong>persoana de contact: Alexandru Hriplivii</strong>
-            <p>Numar de telefon: 068151032/ 068325252 (Ion)</p>
+            <p>Numar de telefon: 068151032 sau 068822213 Carolina, Bălți</p>
             <p>Adresa: or. Drochia, str. Alexandru Plamadeala 58 b
                 (aceasta strada in trecut se numea strada Miciurin)</p>
         </div>

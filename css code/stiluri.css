@@ -83,6 +83,33 @@ footer{
     
 /* display: flex; */
 }
+
+.col-1{width:10%;}
+.col-2{width:20%;}
+.col-3{width:30%;}
+.col-35{width:35%}
+.col-4{width:40%;}
+.col-5{width:50%;}
+.col-6{width:60%;padding-right: 4%;}
+.col-7{width:70%;}
+.col-8{width:80%;}
+.col-9{width:90%;}
+.col-10{width:100%;}
+
+[class*="col-"]{
+    float:left;
+}
+.row{
+    overflow:hidden;
+}
+.form{
+    padding: 20px;
+}
+.harta{
+    padding-top: 25px;
+}
+
+
 @media(max-width:1063){
     /* meniul ca sa incapa intr-o linie trebuieste ecranul sa fie de mai mult de 1063px in latime */
     .nav a{
@@ -152,5 +179,8 @@ footer{
     .continut{
         padding: 10px 2% 10px 2%;
         font-size: 11px;
+    }
+    .recete{
+        background-color: sandybrown; !important
     }
 }
